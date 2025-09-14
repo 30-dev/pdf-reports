@@ -1,0 +1,64 @@
+# PDF Reports Service
+
+Microservicio en **Python (FastAPI)** para generar reportes en **PDF** a partir de resultados de tests o cuestionarios.  
+La idea es ir construyendo paso a paso, empezando con un stub básico que genera un PDF local y luego escalar hacia un servicio en la nube.
+
+## Objetivo
+
+- Recibir los resultados de un test en formato **JSON**.
+- Procesar la data y calcular métricas clave.
+- Generar un **resumen ejecutivo en PDF** con KPIs, hallazgos y recomendaciones.
+- Almacenar el PDF en la nube y devolver un enlace de descarga seguro.
+
+## Etapas del proyecto
+
+1. **Stub local (actual)**
+
+   - FastAPI + ReportLab.
+   - Endpoint `/pdf` que genera un PDF básico en memoria.
+   - Guarda copia local para pruebas.
+
+2. **Integración con Google Cloud**
+
+   - Subida de PDFs a **Cloud Storage**.
+   - Servicio desplegado en **Cloud Run** (Docker).
+   - Devolver **URL firmada** para descarga.
+
+3. **Motor de cálculo y reglas**
+
+   - Normalización de respuestas.
+   - Puntajes por dimensión.
+   - Reglas YAML/JSON para mensajes automáticos.
+
+4. **Plantillas de reporte**
+
+   - Tipografía y branding del cliente.
+   - Gráficos y visualizaciones.
+   - Portada, hallazgos, recomendaciones y anexos.
+
+5. **Migración gradual**
+   - Convivencia con la plataforma actual (Vue + Firebase).
+   - Futuro: transición a **Next.js + Supabase**.
+
+## Tecnologías
+
+- **Python 3.11**
+- **FastAPI** (API REST)
+- **ReportLab / Typst** (generación de PDFs)
+- **Docker + Cloud Run** (despliegue serverless)
+- **Firebase / Supabase** (fuentes de datos y auth)
+
+## Uso rápido (modo local)
+
+```bash
+# Crear entorno virtual
+python -m venv .venv
+source .venv/bin/activate   # en Linux/Mac
+.venv\Scripts\activate      # en Windows
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Correr servidor local
+uvicorn main:app --reload --port 8000
+```
