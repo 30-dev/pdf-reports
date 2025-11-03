@@ -269,7 +269,7 @@ def create_subdimensiones_table(data, styles):
                 str(sub['indicadores_atendidos']),
                 f"{sub['porcentaje_vs_100']:.1f}%",
                 f"{sub['porcentaje_vs_80']:.1f}%",
-                Paragraph(f"<para align='center'>{sub['semaforo'].capitalize()}</para>", styles['table_text'])
+                Paragraph(sub['semaforo'].capitalize(), styles['table_text_centered'])
             ])
             table_styles.append(('ALIGN', (1, row_index), (1, row_index), 'LEFT'))
             table_styles.append(('ALIGN', (6, row_index), (6, row_index), 'CENTER'))  # Centrar columna Semáforo
@@ -1164,6 +1164,7 @@ def create_pdf_in_memory(data: ReporteData):
     md_styles['table_text'] = ParagraphStyle(name='TableText', parent=base_styles['Normal'], fontSize=9, fontName=font_name)
     md_styles['table_header'] = ParagraphStyle(name='TableHeader', parent=base_styles['Normal'], fontSize=9, fontName=font_name_bold)
     md_styles['table_header_small'] = ParagraphStyle(name='TableHeaderSmall', parent=base_styles['Normal'], fontSize=8, fontName=font_name_bold)
+    md_styles['table_text_centered'] = ParagraphStyle(name='TableTextCentered', parent=base_styles['Normal'], fontSize=9, fontName=font_name, alignment=TA_CENTER)
     TITLE_STYLE = base_styles['h1']; TITLE_STYLE.alignment=TA_LEFT; TITLE_STYLE.fontName=font_name_bold
 
     doc = BaseDocTemplate(
