@@ -254,14 +254,26 @@ def create_subdimensiones_table(data, styles):
     for dimension in dimensiones:
         dim_name = f"<b>{dimension['id']}. {dimension['nombre']}</b>"
         table_data.append([Paragraph(dim_name, styles['table_text'])])
+        
+        # Calcular el rango de filas para esta dimensión (título + subdimensiones)
+        dimension_start_row = row_index
+        dimension_end_row = row_index + len(dimension['subdimensiones'])
+        
         table_styles.extend([
             ('SPAN', (0, row_index), (-1, row_index)),
             ('BACKGROUND', (0, row_index), (-1, row_index), colors.HexColor("#F0F0F0")),
-            ('ALIGN', (0, row_index), (0, row_index), 'LEFT')
+            ('ALIGN', (0, row_index), (0, row_index), 'LEFT'),
+            # Evitar separación de página entre título y subdimensiones
+            ('KEEPWITHNEXT', (0, row_index), (-1, row_index), True)
         ])
+        
+        # Si hay más de 3 subdimensiones, aplicar keep together al grupo
+        if len(dimension['subdimensiones']) > 0:
+            table_styles.append(('KEEPTOGETHER', (0, dimension_start_row), (-1, dimension_end_row), True))
+        
         row_index += 1
 
-        for sub in dimension['subdimensiones']:
+        for i, sub in enumerate(dimension['subdimensiones']):
             table_data.append([
                 Paragraph(str(sub['id']), styles['table_text']),
                 Paragraph(sub['nombre'], styles['table_text']),
@@ -273,6 +285,10 @@ def create_subdimensiones_table(data, styles):
             ])
             table_styles.append(('ALIGN', (1, row_index), (1, row_index), 'LEFT'))
             table_styles.append(('ALIGN', (6, row_index), (6, row_index), 'CENTER'))  # Centrar columna Semáforo
+            
+            # Para la primera subdimensión, mantener con el título
+            if i == 0:
+                table_styles.append(('KEEPWITHPREV', (0, row_index), (-1, row_index), True))
             
             # Zebra striping - filas alternadas
             if row_index % 2 == 0:
