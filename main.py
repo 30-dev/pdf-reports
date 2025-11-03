@@ -504,8 +504,12 @@ def create_dimension_detail_flowables(dimension_data, styles, doc_width):
     from reportlab.platypus import Table, TableStyle
     semaforo_card = SemaforoDIGEI_Lite(current=porcentaje_atendido, thresholds=thresholds, unit="%", width=7*cm, height=4*cm, no_border=True)
     
-    # Center the semaforo using a table
-    centered_semaforo = Table([[semaforo_card]], hAlign='CENTER')
+    # Center the semaforo using a table with explicit width control
+    centered_semaforo = Table([[semaforo_card]], colWidths=[doc_width], hAlign='CENTER')
+    centered_semaforo.setStyle(TableStyle([
+        ('ALIGN', (0, 0), (0, 0), 'CENTER'),
+        ('VALIGN', (0, 0), (0, 0), 'MIDDLE'),
+    ]))
     flowables.append(centered_semaforo)
     flowables.append(Spacer(1, 0.5*cm))
 
