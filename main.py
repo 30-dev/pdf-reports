@@ -269,7 +269,7 @@ def create_subdimensiones_table(data, styles):
                 str(sub['indicadores_atendidos']),
                 f"{sub['porcentaje_vs_100']:.1f}%",
                 f"{sub['porcentaje_vs_80']:.1f}%",
-                Paragraph(sub['semaforo'].capitalize(), styles['table_text'])
+                Paragraph(f"<para align='center'>{sub['semaforo'].capitalize()}</para>", styles['table_text'])
             ])
             table_styles.append(('ALIGN', (1, row_index), (1, row_index), 'LEFT'))
             table_styles.append(('ALIGN', (6, row_index), (6, row_index), 'CENTER'))  # Centrar columna Semáforo
