@@ -1,0 +1,131 @@
+# Semaforo DIGEI — LITE (sin título dentro de la card, sin "Nivel de cumplimiento")
+# Dos cards por fila con 47.5% del ancho útil
+# Genera: semaforo_digei_lite.pdf
+
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.units import cm
+from reportlab.lib import colors
+from reportlab.platypus import SimpleDocTemplate, Flowable, Table, TableStyle
+
+class SemaforoDIGEI_Lite(Flowable):
+    """
+    Semáforo vertical (arriba VERDE, medio AMARILLO, abajo ROJO)
+    - Resalta el 'current' con aro morado (#6A1B9A)
+    - Muestra valor grande (%)
+    - Leyenda 'Niveles' en vertical (Alto / Medio / Bajo)
+    - Sin título interno (gestiónalo fuera)
+    - Sin meta
+    """
+    def __init__(self, current, thresholds=(40, 70), unit="%",
+                 width=10*cm, height=6*cm):
+        super().__init__()
+        self.current = current
+        self.t_red, self.t_yellow = thresholds
+        self.unit = unit
+        self.width = width
+        self.height = height
+        # Colores
+        self.c_red     = colors.HexColor("#E53935")
+        self.c_yellow  = colors.HexColor("#FDD835")
+        self.c_green   = colors.HexColor("#43A047")
+        self.c_current = colors.HexColor("#6A1B9A")
+        self.c_value   = colors.HexColor("#111111")
+        self.c_muted   = colors.HexColor("#666666")
+        self.c_border  = colors.HexColor("#E0E0E0")
+
+    def wrap(self, aw, ah):
+        return self.width, self.height
+
+    def _state_for(self, v):
+        if v < self.t_red:      return "red"
+        elif v < self.t_yellow: return "yellow"
+        else:                   return "green"
+
+    def draw(self):
+        c = self.canv
+        W, H = self.width, self.height
+
+        # Card base
+        c.setFillColor(colors.white)
+        c.setStrokeColor(self.c_border)
+        c.roundRect(0, 0, W, H, 8, fill=1, stroke=1)
+
+        pad = 0.8*cm
+        col_w = 3.0*cm
+        left_x, left_y = pad, pad
+        left_h = H - 2*pad
+
+        # Focos pequeños + espacio
+        r = min(0.40*cm, left_h/9.0)
+        gap = max(0.35*cm, (left_h - 6*r)/2.0)
+        cx = left_x + 0.9*cm
+        lab_x = cx + r + 0.30*cm
+
+        cy_top    = left_y + left_h - r
+        cy_middle = cy_top - (2*r + gap)
+        cy_bottom = cy_middle - (2*r + gap)
+
+        centers = {"green":(cx,cy_top), "yellow":(cx,cy_middle), "red":(cx,cy_bottom)}
+
+        # 3 focos
+        c.setStrokeColor(colors.transparent)
+        c.setFillColor(self.c_green);  c.circle(*centers["green"],  r, fill=1, stroke=0)
+        c.setFillColor(self.c_yellow); c.circle(*centers["yellow"], r, fill=1, stroke=0)
+        c.setFillColor(self.c_red);    c.circle(*centers["red"],    r, fill=1, stroke=0)
+
+        # Etiquetas sutiles
+        c.setFont("Helvetica", 8); c.setFillColor(self.c_muted)
+        c.drawString(lab_x, cy_top-3,    "Alto")
+        c.drawString(lab_x, cy_middle-3, "Medio")
+        c.drawString(lab_x, cy_bottom-3, "Bajo")
+
+        # Aro del estado actual
+        st = self._state_for(self.current)
+        ccx, ccy = centers[st]
+        c.setStrokeColor(self.c_current); c.setLineWidth(3)
+        c.circle(ccx, ccy, r + 0.16*cm, fill=0, stroke=1)
+
+        # Columna derecha (valor + leyenda)
+        right_x = left_x + col_w + 0.8*cm
+
+        # Valor grande
+        c.setFont("Helvetica-Bold", 30); c.setFillColor(self.c_value)
+        val = f"{int(self.current)}{self.unit}" if self.unit else f"{int(self.current)}"
+        c.drawString(right_x, H - 1.4*cm, val)
+
+        # Leyenda "Niveles" vertical (con reglas)
+        base_y = H - 2.4*cm
+        c.setFont("Helvetica-Bold", 8); c.setFillColor(self.c_muted)
+        c.drawString(right_x, base_y, "Niveles:")
+        c.setFont("Helvetica", 8)
+        c.drawString(right_x, base_y - 0.45*cm, "• Alto  ≥ 70")
+        c.drawString(right_x, base_y - 0.90*cm, "• Medio 40–69")
+        c.drawString(right_x, base_y - 1.35*cm, "• Bajo  < 40")
+
+# --------- Layout: dos cards a 47.5% del ancho ----------
+doc = SimpleDocTemplate("semaforo_digei_lite.pdf", pagesize=A4,
+                        leftMargin=2*cm, rightMargin=2*cm, topMargin=2*cm, bottomMargin=2*cm)
+
+half = doc.width * 0.475  # 47.5% del ancho útil (aire entre columnas)
+card_a = SemaforoDIGEI_Lite(current=38, unit="%", width=half, height=6*cm)
+card_b = SemaforoDIGEI_Lite(current=72, unit="%", width=half, height=6*cm)
+
+tbl = Table([[card_a, card_b]],
+            colWidths=[half, half],
+            style=TableStyle([
+                ("VALIGN", (0,0), (-1,-1), "TOP"),
+                ("LEFTPADDING",  (0,0), (-1,-1), 0),
+                ("RIGHTPADDING", (0,0), (-1,-1), 12),  # respirito extra
+                ("TOPPADDING",   (0,0), (-1,-1), 0),
+                ("BOTTOMPADDING",(0,0), (-1,-1), 0),
+            ]))
+
+doc.build([tbl])
+print("PDF generado: semaforo_digei_lite.pdf")
+
+# (Colab) descarga opcional
+try:
+    from google.colab import files
+    files.download("semaforo_digei_lite.pdf")
+except:
+    pass

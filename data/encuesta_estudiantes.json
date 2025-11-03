@@ -1,0 +1,428 @@
+{
+    "encuesta_estudiantes_igualdad_genero": {
+        "metadatos": {
+            "nombre_encuesta": "Distintivo Genera Igualdad - Encuesta para Estudiantes",
+            "tema": "Percepción de igualdad de género",
+            "total_respuestas": 243,
+            "fecha_aplicacion": "2024-04-22",
+            "institucion": "Universidad Autónoma de Saltillo"
+        },
+        "respuestas_promedio": [
+            {
+                "pregunta_id": "encuesta-estudiantes-00",
+                "pregunta": "Por favor, ingresa tu correo institucional:",
+                "tipo": "email",
+                "respuestas_muestra": [
+                    "maria.gonzalez@uas.edu.mx",
+                    "carlos.martinez@estudiante.uas.mx",
+                    "ana.rodriguez@uas.edu.mx",
+                    "luis.hernandez@estudiante.uas.mx"
+                ]
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-01",
+                "pregunta": "¿Qué edad tienes?",
+                "tipo": "number",
+                "estadisticas": {
+                    "promedio": 21.3,
+                    "mediana": 21,
+                    "moda": 20,
+                    "rango": "18-26",
+                    "distribucion": {
+                        "18-19": 18.5,
+                        "20-21": 35.2,
+                        "22-23": 28.7,
+                        "24-26": 17.6
+                    }
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-02",
+                "pregunta": "¿Cuál es tu género?",
+                "tipo": "radio",
+                "opciones": [
+                    "Mujer",
+                    "Hombre",
+                    "Otro"
+                ],
+                "resultados": {
+                    "Mujer": 52.3,
+                    "Hombre": 45.7,
+                    "Otro": 2.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-03",
+                "pregunta": "¿Te identifica o formas parte de alguno de los siguientes sectores de la población?",
+                "tipo": "radio",
+                "opciones": [
+                    "Indígena",
+                    "Afrodescendiente",
+                    "Ninguno"
+                ],
+                "resultados": {
+                    "Indígena": 8.2,
+                    "Afrodescendiente": 3.1,
+                    "Ninguno": 88.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-04",
+                "pregunta": "La igualdad de género es un tema prioritario para mi entorno y comunidad educativa",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 5.8,
+                    "En desacuerdo": 12.3,
+                    "De acuerdo": 48.1,
+                    "Totalmente de acuerdo": 33.8
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-05",
+                "pregunta": "Incorporar la igualdad de género en las políticas y programas de la Universidad puede tener efectos negativos para los hombres",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 45.2,
+                    "En desacuerdo": 32.1,
+                    "De acuerdo": 15.6,
+                    "Totalmente de acuerdo": 7.1
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-06",
+                "pregunta": "Fomentar la igualdad de género no debería ser algo obligatorio en mi institución educativa",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 38.7,
+                    "En desacuerdo": 31.5,
+                    "De acuerdo": 19.8,
+                    "Totalmente de acuerdo": 10.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-07",
+                "pregunta": "Las mujeres no son buenas para las ciencias",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 72.4,
+                    "En desacuerdo": 21.3,
+                    "De acuerdo": 4.5,
+                    "Totalmente de acuerdo": 1.8
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-08",
+                "pregunta": "Las mujeres son mejores en actividades de cuidado, apoyo administrativo, etc.",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 41.2,
+                    "En desacuerdo": 34.6,
+                    "De acuerdo": 18.9,
+                    "Totalmente de acuerdo": 5.3
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-09",
+                "pregunta": "Las mujeres deben ser las responsables de los cuidados de las personas que lo necesiten",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 58.1,
+                    "En desacuerdo": 28.4,
+                    "De acuerdo": 10.7,
+                    "Totalmente de acuerdo": 2.8
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-10",
+                "pregunta": "En la institución hay prácticas discriminatorias",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 15.2,
+                    "En desacuerdo": 28.4,
+                    "De acuerdo": 38.7,
+                    "Totalmente de acuerdo": 17.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-11",
+                "pregunta": "En la institución se fomenta la igualdad de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 8.6,
+                    "En desacuerdo": 22.1,
+                    "De acuerdo": 52.3,
+                    "Totalmente de acuerdo": 17.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-12",
+                "pregunta": "En la institución hay brechas de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 12.3,
+                    "En desacuerdo": 23.9,
+                    "De acuerdo": 45.2,
+                    "Totalmente de acuerdo": 18.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-13",
+                "pregunta": "En la institución se tiene el compromiso de trabajar por la igualdad de género y la no discriminación",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 6.2,
+                    "En desacuerdo": 18.5,
+                    "De acuerdo": 58.4,
+                    "Totalmente de acuerdo": 16.9
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-14",
+                "pregunta": "En la institución se trabaja para romper con el sexismo",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 11.5,
+                    "En desacuerdo": 26.7,
+                    "De acuerdo": 48.1,
+                    "Totalmente de acuerdo": 13.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-15",
+                "pregunta": "En la institución hay respeto para las diversidades sexogenéricas",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 9.1,
+                    "En desacuerdo": 19.3,
+                    "De acuerdo": 51.4,
+                    "Totalmente de acuerdo": 20.2
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-16",
+                "pregunta": "Es importante que la institución trabaje de manera integral y coordinada en el fomento de la igualdad de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 4.1,
+                    "En desacuerdo": 8.2,
+                    "De acuerdo": 52.7,
+                    "Totalmente de acuerdo": 35.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-17",
+                "pregunta": "En la institución hay acoso y violencia de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 18.9,
+                    "En desacuerdo": 31.7,
+                    "De acuerdo": 35.4,
+                    "Totalmente de acuerdo": 14.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-18",
+                "pregunta": "En la institución se atiende de manera eficaz el acoso y la violencia de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 14.8,
+                    "En desacuerdo": 32.5,
+                    "De acuerdo": 41.2,
+                    "Totalmente de acuerdo": 11.5
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-19",
+                "pregunta": "En la institución se implementan acciones para la prevención del acoso sexual y la violencia de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 10.7,
+                    "En desacuerdo": 24.3,
+                    "De acuerdo": 49.4,
+                    "Totalmente de acuerdo": 15.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-20",
+                "pregunta": "En la institución yo he sido testigo de comentarios sexistas, bromas ofensivas, miradas obscenas o petición de pláticas indeseables con asuntos sexuales",
+                "tipo": "likert",
+                "escala": [
+                    "Nunca",
+                    "Rara vez",
+                    "A menudo",
+                    "Muy frecuentemente"
+                ],
+                "resultados": {
+                    "Nunca": 31.2,
+                    "Rara vez": 38.7,
+                    "A menudo": 22.6,
+                    "Muy frecuentemente": 7.5
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-21",
+                "pregunta": "En caso de que yo sufra algún acto de acoso sexual o violencia de género, sé a dónde acudir y sé que me escucharán y no recibiré ningún tipo de represalia o sanción",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 16.9,
+                    "En desacuerdo": 29.2,
+                    "De acuerdo": 42.8,
+                    "Totalmente de acuerdo": 11.1
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-22",
+                "pregunta": "En la institución, en general, hay personas que discriminan, tratan mal o le faltan al respeto a compañeros o compañeras",
+                "tipo": "likert",
+                "escala": [
+                    "Nunca",
+                    "Rara vez",
+                    "A menudo",
+                    "Muy frecuentemente"
+                ],
+                "resultados": {
+                    "Nunca": 19.8,
+                    "Rara vez": 41.6,
+                    "A menudo": 28.4,
+                    "Muy frecuentemente": 10.2
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-23",
+                "pregunta": "He sido testigo de actos discriminatorios por ser mujer, hombre, edad, apariencia, etc.",
+                "tipo": "likert",
+                "escala": [
+                    "Nunca",
+                    "Rara vez",
+                    "A menudo",
+                    "Muy frecuentemente"
+                ],
+                "resultados": {
+                    "Nunca": 35.4,
+                    "Rara vez": 36.2,
+                    "A menudo": 21.0,
+                    "Muy frecuentemente": 7.4
+                }
+            },
+            {
+                "pregunta_id": "encuesta-estudiantes-24",
+                "pregunta": "En la institución, ¿existen campañas de difusión internas de promoción de la igualdad de género y la no discriminación?",
+                "tipo": "likert",
+                "escala": [
+                    "Nunca",
+                    "Rara vez",
+                    "A menudo",
+                    "Muy frecuentemente"
+                ],
+                "resultados": {
+                    "Nunca": 22.6,
+                    "Rara vez": 34.2,
+                    "A menudo": 32.1,
+                    "Muy frecuentemente": 11.1
+                }
+            }
+        ]
+    }
+}

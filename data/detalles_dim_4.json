@@ -1,0 +1,61 @@
+{
+    "dimension_nombre": "Participación y representación en la academia",
+    "brecha_por_genero": [
+        {
+            "pregunta": "¿La máxima autoridad de la institución/facultad es hombre o mujer?",
+            "grupo_o_categoria": "Total",
+            "mujeres": 0,
+            "hombres": 1,
+            "brecha": 1
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en cargos directivos?",
+            "grupo_o_categoria": "Ingeniería",
+            "mujeres": 4,
+            "hombres": 7,
+            "brecha": 3
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en cargos directivos?",
+            "grupo_o_categoria": "Administración",
+            "mujeres": 6,
+            "hombres": 5,
+            "brecha": -1
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en mandos medios?",
+            "grupo_o_categoria": "Salud",
+            "mujeres": 12,
+            "hombres": 8,
+            "brecha": -4
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en puestos técnicos?",
+            "grupo_o_categoria": "Ingeniería",
+            "mujeres": 9,
+            "hombres": 14,
+            "brecha": 5
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en puestos administrativos?",
+            "grupo_o_categoria": "Administración",
+            "mujeres": 20,
+            "hombres": 10,
+            "brecha": -10
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en puestos de auxiliares?",
+            "grupo_o_categoria": "Salud",
+            "mujeres": 18,
+            "hombres": 12,
+            "brecha": -6
+        },
+        {
+            "pregunta": "¿Cuántos hombres y mujeres hay en puestos operativos?",
+            "grupo_o_categoria": "Total",
+            "mujeres": 25,
+            "hombres": 30,
+            "brecha": 5
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "salario_promedio_por_categoria": [
+        {
+            "categoría": "Máxima autoridad",
+            "hombres": "$20,000",
+            "mujeres": "$0",
+            "brecha_salarial": "$20,000"
+        },
+        {
+            "categoría": "Puestos directivos",
+            "hombres": "$10,000",
+            "mujeres": "$10,000",
+            "brecha_salarial": "$0"
+        },
+        {
+            "categoría": "Otras jefaturas y mandos intermedios",
+            "hombres": "$3,000",
+            "mujeres": "$3,000",
+            "brecha_salarial": "$0"
+        },
+        {
+            "categoría": "Puestos técnicos",
+            "hombres": "$2,000",
+            "mujeres": "$1,000",
+            "brecha_salarial": "$1,000"
+        },
+        {
+            "categoría": "Puestos administrativos",
+            "hombres": "$3,500",
+            "mujeres": "$4,000",
+            "brecha_salarial": "$500"
+        },
+        {
+            "categoría": "Puestos auxiliares",
+            "hombres": "$2,000",
+            "mujeres": "$2,500",
+            "brecha_salarial": "$500"
+        },
+        {
+            "categoría": "Puestos operativos",
+            "hombres": "$3,000",
+            "mujeres": "$3,000",
+            "brecha_salarial": "$0"
+        }
+    ]
+}

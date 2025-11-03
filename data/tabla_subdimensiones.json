@@ -1,0 +1,384 @@
+{
+    "titulo": "Subdimensiones por dimensión",
+    "descripcion": "La siguiente tabla muestra el nivel de cumplimiento por dimensión y subdimensión ",
+    "dimensiones": [
+        {
+            "id": 1,
+            "nombre": "Formación, docencia y desarrollo de aprendizaje",
+            "subdimensiones": [
+                {
+                    "id": "1.1",
+                    "nombre": "Modelo educativo con perspectiva de género",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 62.5,
+                    "porcentaje_vs_80": 78.1,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "1.2",
+                    "nombre": "Desarrollo docente y capacitación",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "1.3",
+                    "nombre": "Contenidos y materiales con enfoque de género",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 66.7,
+                    "porcentaje_vs_80": 83.3,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "1.4",
+                    "nombre": "Evaluación y seguimiento no discriminatorio",
+                    "indicadores_total": 6,
+                    "indicadores_atendidos": 3,
+                    "porcentaje_vs_100": 50.0,
+                    "porcentaje_vs_80": 62.5,
+                    "semaforo": "medio"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Investigación, desarrollo innovación y creación artística",
+            "subdimensiones": [
+                {
+                    "id": "2.1",
+                    "nombre": "Política de investigación con enfoque de género",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 4,
+                    "porcentaje_vs_100": 50.0,
+                    "porcentaje_vs_80": 62.5,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "2.2",
+                    "nombre": "Proyectos y convocatorias inclusivas",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 60.0,
+                    "porcentaje_vs_80": 75.0,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "2.3",
+                    "nombre": "Difusión y acceso abierto equitativo",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 58.3,
+                    "porcentaje_vs_80": 72.9,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "2.4",
+                    "nombre": "Creación artística con perspectiva de género",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 80.0,
+                    "porcentaje_vs_80": 100.0,
+                    "semaforo": "alto"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Comunicación, extensión y vinculación con el medio",
+            "subdimensiones": [
+                {
+                    "id": "3.1",
+                    "nombre": "Comunicación institucional inclusiva",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 10,
+                    "porcentaje_vs_100": 83.3,
+                    "porcentaje_vs_80": 100.0,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "3.2",
+                    "nombre": "Vinculación con organizaciones y redes",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "3.3",
+                    "nombre": "Extensión universitaria con perspectiva de género",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 75.0,
+                    "porcentaje_vs_80": 93.8,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "3.4",
+                    "nombre": "Protocolos de lenguaje e imagen no sexista",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 80.0,
+                    "porcentaje_vs_80": 100.0,
+                    "semaforo": "alto"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Participación y representación en la academia, brechas salariales",
+            "subdimensiones": [
+                {
+                    "id": "4.1",
+                    "nombre": "Participación paritaria en órganos colegiados",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 4,
+                    "porcentaje_vs_100": 40.0,
+                    "porcentaje_vs_80": 50.0,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "4.2",
+                    "nombre": "Brechas salariales y transparencia",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 3,
+                    "porcentaje_vs_100": 37.5,
+                    "porcentaje_vs_80": 46.9,
+                    "semaforo": "bajo"
+                },
+                {
+                    "id": "4.3",
+                    "nombre": "Liderazgos y toma de decisiones",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 41.7,
+                    "porcentaje_vs_80": 52.1,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "4.4",
+                    "nombre": "Trayectorias y promoción equitativa",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Condiciones y relaciones de desarrollo laboral",
+            "subdimensiones": [
+                {
+                    "id": "5.1",
+                    "nombre": "Políticas laborales y prestaciones",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 9,
+                    "porcentaje_vs_100": 75.0,
+                    "porcentaje_vs_80": 93.8,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "5.2",
+                    "nombre": "Capacitación y desarrollo del personal",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "5.3",
+                    "nombre": "Conciliación vida-trabajo",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 62.5,
+                    "porcentaje_vs_80": 78.1,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "5.4",
+                    "nombre": "Evaluación de desempeño sin sesgos",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 66.7,
+                    "porcentaje_vs_80": 83.3,
+                    "semaforo": "medio"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Acoso y hostigamiento sexual y violencia de género",
+            "subdimensiones": [
+                {
+                    "id": "6.1",
+                    "nombre": "Protocolo de atención y denuncia",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 50.0,
+                    "porcentaje_vs_80": 62.5,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "6.2",
+                    "nombre": "Capacitación en prevención",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 58.3,
+                    "porcentaje_vs_80": 72.9,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "6.3",
+                    "nombre": "Acompañamiento y canalización",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 4,
+                    "porcentaje_vs_100": 50.0,
+                    "porcentaje_vs_80": 62.5,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "6.4",
+                    "nombre": "Seguimiento y sanciones",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 60.0,
+                    "porcentaje_vs_80": 75.0,
+                    "semaforo": "medio"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Corresponsabilidad social en el cuidado",
+            "subdimensiones": [
+                {
+                    "id": "7.1",
+                    "nombre": "Infraestructura de cuidado y apoyos",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 3,
+                    "porcentaje_vs_100": 37.5,
+                    "porcentaje_vs_80": 46.9,
+                    "semaforo": "bajo"
+                },
+                {
+                    "id": "7.2",
+                    "nombre": "Licencias y flexibilidades",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 60.0,
+                    "porcentaje_vs_80": 75.0,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "7.3",
+                    "nombre": "Programas de corresponsabilidad",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 87.5,
+                    "porcentaje_vs_80": 100.0,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "7.4",
+                    "nombre": "Cultura organizacional del cuidado",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 50.0,
+                    "porcentaje_vs_80": 62.5,
+                    "semaforo": "medio"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Institucionalidad",
+            "subdimensiones": [
+                {
+                    "id": "8.1",
+                    "nombre": "Marco normativo y reglamentos",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 80.0,
+                    "porcentaje_vs_80": 100.0,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "8.2",
+                    "nombre": "Instancias y comités especializados",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 75.0,
+                    "porcentaje_vs_80": 93.8,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "8.3",
+                    "nombre": "Planeación y presupuesto con perspectiva de género",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 9,
+                    "porcentaje_vs_100": 75.0,
+                    "porcentaje_vs_80": 93.8,
+                    "semaforo": "alto"
+                },
+                {
+                    "id": "8.4",
+                    "nombre": "Monitoreo y rendición de cuentas",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Infraestructura",
+            "subdimensiones": [
+                {
+                    "id": "9.1",
+                    "nombre": "Seguridad y accesibilidad",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 6,
+                    "porcentaje_vs_100": 60.0,
+                    "porcentaje_vs_80": 75.0,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "9.2",
+                    "nombre": "Espacios y sanitarios inclusivos",
+                    "indicadores_total": 12,
+                    "indicadores_atendidos": 8,
+                    "porcentaje_vs_100": 66.7,
+                    "porcentaje_vs_80": 83.3,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "9.3",
+                    "nombre": "Señalética y comunicación en campus",
+                    "indicadores_total": 8,
+                    "indicadores_atendidos": 5,
+                    "porcentaje_vs_100": 62.5,
+                    "porcentaje_vs_80": 78.1,
+                    "semaforo": "medio"
+                },
+                {
+                    "id": "9.4",
+                    "nombre": "Mantenimiento y adecuaciones",
+                    "indicadores_total": 10,
+                    "indicadores_atendidos": 7,
+                    "porcentaje_vs_100": 70.0,
+                    "porcentaje_vs_80": 87.5,
+                    "semaforo": "alto"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+[
+    {
+        "dimension_nombre": "1. Formación, docencia y desarrollo de aprendizaje",
+        "porcentaje_atendido": 24,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "El Modelo educativo tiene perspectiva de género",
+                "preguntas": [
+                    "Las orientaciones sobre igualdad de género y no discriminación contempladas en el modelo educativo de la Institución/facultad ¿se están implementando?"
+                ]
+            },
+            {
+                "subdimension": "Procesos de formación sistémicos sobre igualdad de género y no discriminación",
+                "preguntas": [
+                    "¿La institución/facultad cuenta con una planeación anual sobre los cursos, capacitaciones o talleres sobre género que se imparten para docentes, administrativos y demás personal?",
+                    "¿El personal apoya estas políticas de género que implementa la institución/facultad?",
+                    "¿La institución/facultad cuenta con evaluaciones, opiniones o seguimiento de los cursos o herramientas de formación sobre género que se han ofrecido a docentes, administrativos y demás personal?",
+                    "¿Los mandos medios y directivos han asistido a los cursos, pláticas, etc., sobre género que implementa u ofrece la institución/facultad?",
+                    "En el último año, ¿Con qué frecuencia se ofrecieron capacitaciones sobre temas de género a docentes, administrativos y personal en general?",
+                    "En promedio, en el último año ¿qué porcentaje del personal asistió a los cursos que la institución/facultad ofreció sobre género?"
+                ]
+            },
+            {
+                "subdimension": "Planes y programas estudiantiles integran la perspectiva de género",
+                "preguntas": [
+                    "Los cursos sobre temas de género, feminismos y disidencias sexuales que se establecen en el plan de estudios de la institución/facultad ¿son obligatorios?",
+                    "¿La institución/facultad evalúa y/o monitorea las prácticas educativas relacionadas con cuestiones de género?",
+                    "¿La institución/facultad cuenta con una planeación anual sobre los cursos que se ofrecen a los y las estudiantes relacionados con temas de género?",
+                    "¿El personal docente y de toma de decisión apoya esta planeación e implementación de cursos sobre género?",
+                    "¿La institución/facultad cuenta con académicos/as con formación en temas de género?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "2. Investigación, Innovación y Desarrollo y Creación Artística",
+        "porcentaje_atendido": 19,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "Política y seguimiento de participación equilibrada",
+                "preguntas": [
+                    "¿La institución/facultad cuenta con una política de participación equilibrada de hombres y mujeres en las investigaciones, proyectos de innovación y desarrollo y de creación artística?",
+                    "¿La institución/facultad cuenta con instrumentos de seguimiento y monitoreo de la política de participación equilibrada de hombres y mujeres en las investigaciones, proyectos de innovación y desarrollo y de creación artística?",
+                    "¿Qué porcentaje de mujeres que integran los equipos de liderazgo en los proyectos de investigación, innovación y desarrollo, y creación artística?",
+                    "¿Qué porcentaje de mujeres que participan en los equipos de investigación, innovación y desarrollo y creación artística?",
+                    "¿Se han implementado iniciativas para abordar las brechas de género en los proyectos de investigación?"
+                ]
+            },
+            {
+                "subdimension": "Producción y divulgación de conocimiento con perspectiva de género",
+                "preguntas": [
+                    "¿Qué porcentaje de las investigaciones abordan temas de género y no discriminación?"
+                ]
+            },
+            {
+                "subdimension": "Fondos para proyectos con perspectiva de género",
+                "preguntas": [
+                    "¿Se dispone de fondos específicos para promover y/o desarrollar las investigaciones, proyectos de innovación y desarrollo, y creación artística en materias de género o con perspectiva de género?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "3. Comunicación y vinculación con el medio",
+        "porcentaje_atendido": 11,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "La institución incorpora lenguaje incluyente y no sexista en su comunicación organizacional y en la comunicación al exterior",
+                "preguntas": [
+                    "¿El Plan de comunicación anual de la institución/facultad incorpora la perspectiva de género?",
+                    "¿Las actividades de comunicación y difusión incorporan la presencia equilibrada de hombres y mujeres?",
+                    "¿La institución/facultad considera a las mujeres y/o diversidades sexo genéricas como fuente o protagonistas de publicaciones y/o noticias emitidas?",
+                    "¿La institución/facultad tiene mecanismos para monitorear o evaluar el impacto de los comunicados o difusión de mensajes de igualdad de género, prevención de la violencia u otros relacionados?"
+                ]
+            },
+            {
+                "subdimension": "La institución visibiliza y valora el aporte de las mujeres a las distintas áreas del conocimiento y al desarrollo del país",
+                "preguntas": [
+                    "¿Se visibiliza la presencia y aporte de mujeres en el contenido de los mensajes difundidos por la institución/facultad?",
+                    "¿Se cuenta con planes e iniciativas para visibilizar el aporte de las mujeres a las distintas áreas del conocimiento y al desarrollo del país?",
+                    "¿Existen personas con formación de género en los equipos de comunicación?"
+                ]
+            },
+            {
+                "subdimension": "La institución difunde contenido específicos sobre temas de género, diferencias sexogenéricas, de no discriminación y no violencia de género",
+                "preguntas": [
+                    "¿Se intenciona la erradicación de estereotipos sexistas y de cualquier forma de discriminación en las comunicaciones?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "4. Participación y representación en la academia",
+        "porcentaje_atendido": 3,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "La institución implementa medidas, planes y/o programas que inciden en la participación equilibrada de hombres y mujeres en la plantilla académica, en las distintas carreras y áreas del conocimiento y cuenta con un sistema de seguimiento pertinente. (Equilibrado 50 y 50% o cercano a ello)",
+                "preguntas": [
+                    "En la institución/facultad ¿se desarrollan iniciativas que aborden la segmentación horizontal? La segmentación horizontal se refiere a la distribución desigual de hombres y mujeres en diferentes sectores o tipos de ocupación, donde uno de los géneros puede estar sobre representado o sub representado en un sector específico",
+                    "En la institución/facultad ¿se desarrollan iniciativas que aborden la segmentación vertical? La segmentación vertical se refiere a la desigualdad de género en los niveles jerárquicos de la institución.",
+                    "¿La institución/facultad cuenta con mecanismos de monitoreo o evaluación de las iniciativas que abordan la segmentación horizontal y vertical?"
+                ]
+            },
+            {
+                "subdimension": "La institución implementa planes y/o mecanismos que promueven el acceso equilibrado de académicos y académicas a los niveles superiores de la jerarquía académica.",
+                "preguntas": [
+                    "¿Cuenta la institución/facultad con mecanismos de desarrollo de carrera profesional?",
+                    "¿En la institución/facultad existe una política de cuotas o acciones afirmativas para garantizar que las mujeres accedan a ciertos puestos?",
+                    "Con las respuestas anteriores, ¿usted considera que los procesos de reclutamiento y selección y contratación de personal que implementa la institución/facultad son igualitarios para hombres y mujeres?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "5. Condiciones y relaciones de desarrollo laboral",
+        "porcentaje_atendido": 21,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "Política de acceso igualitario a procesos de selección y reclutamiento",
+                "preguntas": [
+                    "¿La institución/facultad cuenta con una política de acceso igualitario en procesos de selección y reclutamiento?",
+                    "¿Usted considera que los procesos de reclutamiento y selección y contratación de personal de la institución/facultad son igualitarios para hombres y mujeres?"
+                ]
+            },
+            {
+                "subdimension": "Procesos de capacitación, formación y selección",
+                "preguntas": [
+                    "¿La institución/facultad cuenta e implementa mecanismos para facilitar el acceso igualitario a las capacitaciones asociadas al desarrollo laboral?"
+                ]
+            },
+            {
+                "subdimension": "Política para disminuir las posibles brechas salariales",
+                "preguntas": [
+                    "¿En la institución/facultad existen mecanismos para garantizar la igualdad salarial entre hombres y mujeres por igual tipo de trabajo?",
+                    "¿La institución/facultad ofrece a los y las empleadas mecanismos de ascenso o aumento de salario?",
+                    "¿La política salarial de la institución/facultad facilita información transparente sobre la política de compensaciones?"
+                ]
+            },
+            {
+                "subdimension": "Medidas que identifican y reducen brechas salariales y seguimiento",
+                "preguntas": [
+                    "¿En la institución/facultad existen iniciativas para abordar eventuales brechas y discriminaciones en el plano laboral?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "6. Acoso, hostigamiento sexual y violencia de género",
+        "porcentaje_atendido": 13,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "Política institucional de prevención",
+                "preguntas": [
+                    "¿La institución/facultad realiza actividades sistemáticas para difundir la política/protocolo a todo el personal?"
+                ]
+            },
+            {
+                "subdimension": "Modelo de atención institucional",
+                "preguntas": [
+                    "¿En la institución/facultad se han presentado denuncias por acoso u hostigamiento sexual o por violencia de género?",
+                    "¿La institución/facultad cuenta con mecanismos para recibir y procesar las denuncias por acoso u hostigamiento sexual o por violencia de género?",
+                    "¿Cuál es la tasa de procesamiento de denuncias por acoso u hostigamiento sexual o por violencia de género?",
+                    "¿Cuál es la tasa de resolución de denuncias por acoso u hostigamiento sexual o por violencia de género?"
+                ]
+            },
+            {
+                "subdimension": "Capacitación y formación",
+                "preguntas": [
+                    "¿La institución/facultad desarrolla actividades de prevención y formación sobre acoso, violencia de género y hostigamiento sexual?",
+                    "¿La institución/facultad ha capacitado a todo el personal sobre los mecanismos de denuncia de acoso, hostigamiento o violencia de género?",
+                    "¿Se ha discutido con todo el personal el protocolo o los mecanismos de atención y prevención del acoso u hostigamiento sexual y de la violencia de género?",
+                    "¿Qué porcentaje de personal académico y administrativo de la institución/facultad ha participado en estas discusiones?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "7. Corresponsabilidad social en el cuidado",
+        "porcentaje_atendido": 40,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "Políticas institucionales de corresponsabilidad social en el cuidado",
+                "preguntas": [
+                    "¿Existen mecanismos institucionales para abordar los temas de corresponsabilidad social infraestructura para el cuidado?",
+                    "¿Existen mecanismos institucionales para abordar los temas de corresponsabilidad social personas con formación de género para implementarlos?",
+                    "¿Existen mecanismos de información al personal en materia derechos de protección a la maternidad/paternidad?",
+                    "¿La institución/facultad cuenta con licencia de paternidad?",
+                    "¿La institución/facultad cuenta con licencia de lactancia?",
+                    "¿La institución/facultad cuenta con reducción de horarios por motivos personales?",
+                    "¿Se imparten cursos al personal sobre corresponsabilidad social del cuidado?",
+                    "¿Las opiniones o evaluaciones sobre las políticas de corresponsabilidad en el cuidado son ...?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "8. Institucionalidad",
+        "porcentaje_atendido": 57,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "La institución implementa una política integral que aborda las principales desigualdades y discriminaciones de género, en todos los departamentos y niveles de la organización universitaria.",
+                "preguntas": [
+                    "¿La perspectiva de género está incorporada en la normatividad interna de la institución/facultad?",
+                    "¿La perspectiva de género está incorporada en los estatutos de la institución/facultad?",
+                    "¿La institución/facultad realiza regularmente actividades externas para fomentar la igualdad de género y la erradicación de las discriminaciones?",
+                    "¿La institución/facultad cuenta con políticas y/o programas institucionales claros orientados al fomento de la igualdad y de la no discriminación de género?"
+                ]
+            },
+            {
+                "subdimension": "La institución cuenta con mecanismos especializados y articulados con las estructuras de gestión directiva y órganos de gobierno universitario, responsables de promover, diseñar, coordinar y realizar seguimiento de políticas, planes e iniciativas de igualdad de género y no discriminación.",
+                "preguntas": [
+                    "¿La institución/facultad cuenta con personal con conocimiento en temas de género?",
+                    "En su opinión ¿los y las directivas consideran relevante incorporar la igualdad de género en sus actividades?"
+                ]
+            }
+        ]
+    },
+    {
+        "dimension_nombre": "9. Infraestructura",
+        "porcentaje_atendido": 15,
+        "puntos_no_atendidos": [
+            {
+                "subdimension": "La institución fomenta la creación de entornos que cuenten con infraestructura inclusiva en términos de género, que sean seguros y accesibles para toda la comunidad universitaria y se lleva a cabo el seguimiento correspondiente.",
+                "preguntas": [
+                    "¿La institución/facultad cuenta con una política para integrar infraestructura con perspectiva de género en las instalaciones?",
+                    "¿La institución/facultad realiza actividades para difundir la política de infraestructura a toda la comunidad educativa?"
+                ]
+            },
+            {
+                "subdimension": "La institución fomenta la accesibilidad universal promoviendo la autonomía y la movilidad sostenible de la comunidad universitaria.",
+                "preguntas": [
+                    "¿La institución/facultad fomenta la accesibilidad universal promoviendo la autonomía y la movilidad sostenible de la comunidad universitaria?"
+                ]
+            },
+            {
+                "subdimension": "La institución promueve el uso igualitario de espacios para la vinculación académica, cultural y deportiva y la socialización",
+                "preguntas": [
+                    "¿La institución cuenta con espacios comunes e instalaciones en la institución con condiciones óptimas que favorezcan la socialización y el intercambio, y que detonen la identidad y el orgullo mediante la convivencia igualitaria de la comunidad universitaria?"
+                ]
+            },
+            {
+                "subdimension": "La institución cuenta con espacios que permiten el acceso universal e igualitario para la comunidad universitaria a los servicios sanitarios, médicos, de atención sicológica y de cuidado.",
+                "preguntas": [
+                    "¿Existen espacios en la institución para la provisión de servicios de cuidado para las personas que lo requieran, en particular cuidadores/as de niñas y niños, que tengan personas bajo su cuidado (Salas de lactancia, Sanitarios universales con cambiadores de pañales, Sanitarios para personas con discapacidad, Guarderías de la institución cercanas a los centros de trabajo)?"
+                ]
+            },
+            {
+                "subdimension": "La institución cuenta con espacios iluminados y un sistema de seguridad interna en comunicación con las autoridades.",
+                "preguntas": [
+                    "¿En la institución existen instalaciones para la provisión de servicios médicos básicos y atención psicológica?",
+                    "¿La institución cuenta con servicios de seguridad interna conectada con las autoridades municipales y estatales?"
+                ]
+            }
+        ]
+    }
+]

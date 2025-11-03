@@ -62,3 +62,10 @@ pip install -r requirements.txt
 # Correr servidor local
 uvicorn main:app --reload --port 8000
 ```
+
+## Notas sobre fuentes
+
+El proyecto incluye fuentes DejaVu en la carpeta `fonts/` para renderizar correctamente caracteres especiales en español (tildes, ñ, etc.). Estas fuentes se cargan automáticamente al iniciar el servidor.
+
+Si las fuentes no están presentes, el sistema usará fuentes estándar que pueden mostrar cuadros negros en lugar de algunos caracteres especiales.
+```

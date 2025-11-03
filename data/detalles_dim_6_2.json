@@ -1,0 +1,16 @@
+{
+    "atenciones_dimension_acoso": [
+        {
+            "tipo_de_atención": "Atención en procesos de reclutamiento o selección",
+            "mujeres": 3
+        },
+        {
+            "tipo_de_atención": "Atención en otros procesos laborales",
+            "mujeres": 2
+        },
+        {
+            "tipo_de_atención": "Atención a mujeres estudiantes",
+            "mujeres": 3
+        }
+    ]
+}

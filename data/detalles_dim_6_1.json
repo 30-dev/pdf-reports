@@ -1,0 +1,24 @@
+{
+    "resumen_de_quejas": [
+        {
+            "tipo_de_queja": "Quejas del personal recibidas",
+            "mujeres": 10,
+            "hombres": 0
+        },
+        {
+            "tipo_de_queja": "Quejas del personal resueltas",
+            "mujeres": 5,
+            "hombres": 0
+        },
+        {
+            "tipo_de_queja": "Quejas de estudiantes recibidas",
+            "mujeres": 10,
+            "hombres": 0
+        },
+        {
+            "tipo_de_queja": "Quejas de estudiantes resueltas",
+            "mujeres": 5,
+            "hombres": 0
+        }
+    ]
+}

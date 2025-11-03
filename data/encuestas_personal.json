@@ -1,0 +1,380 @@
+{
+    "encuesta_personal_institucional": {
+        "metadatos": {
+            "nombre_encuesta": "Distintivo Genera Igualdad - Encuesta para Personal Institucional",
+            "tema": "Percepción de igualdad de género en el ambiente laboral",
+            "total_respuestas": 89,
+            "fecha_aplicacion": "2024-04-25",
+            "institucion": "Universidad Autónoma de Saltillo"
+        },
+        "respuestas_promedio": [
+            {
+                "pregunta_id": "encuesta-personal-00",
+                "pregunta": "Por favor, ingresa tu correo institucional:",
+                "tipo": "email",
+                "respuestas_muestra": [
+                    "dra.martinez@uas.edu.mx",
+                    "prof.hernandez@uas.edu.mx",
+                    "coord.garcia@admin.uas.mx",
+                    "dir.lopez@uas.edu.mx"
+                ]
+            },
+            {
+                "pregunta_id": "encuesta-personal-01",
+                "pregunta": "¿Cuál es tu edad?",
+                "tipo": "number",
+                "estadisticas": {
+                    "promedio": 42.7,
+                    "mediana": 41,
+                    "moda": 38,
+                    "rango": "28-65",
+                    "distribucion": {
+                        "28-35": 22.5,
+                        "36-45": 38.2,
+                        "46-55": 24.7,
+                        "56-65": 14.6
+                    }
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-02",
+                "pregunta": "¿Cuál es tu cargo?",
+                "tipo": "text",
+                "cargos_frecuentes": [
+                    {
+                        "cargo": "Profesor/a de Tiempo Completo",
+                        "porcentaje": 34.8
+                    },
+                    {
+                        "cargo": "Profesor/a de Asignatura",
+                        "porcentaje": 22.5
+                    },
+                    {
+                        "cargo": "Coordinador/a Académico",
+                        "porcentaje": 12.4
+                    },
+                    {
+                        "cargo": "Personal Administrativo",
+                        "porcentaje": 15.7
+                    },
+                    {
+                        "cargo": "Jefe/a de Departamento",
+                        "porcentaje": 7.9
+                    },
+                    {
+                        "cargo": "Director/a",
+                        "porcentaje": 4.5
+                    },
+                    {
+                        "cargo": "Secretario/a Académico",
+                        "porcentaje": 2.2
+                    }
+                ]
+            },
+            {
+                "pregunta_id": "encuesta-personal-03",
+                "pregunta": "¿Cuál es tu género?",
+                "tipo": "radio",
+                "opciones": [
+                    "Mujer",
+                    "Hombre",
+                    "Otro"
+                ],
+                "resultados": {
+                    "Mujer": 48.3,
+                    "Hombre": 50.6,
+                    "Otro": 1.1
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-04",
+                "pregunta": "En mi institución hay brechas salariales de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 31.5,
+                    "En desacuerdo": 24.7,
+                    "De acuerdo": 28.1,
+                    "Totalmente de acuerdo": 15.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-05",
+                "pregunta": "En mi institución se fomenta la corresponsabilidad social en el cuidado",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 16.9,
+                    "En desacuerdo": 31.5,
+                    "De acuerdo": 38.2,
+                    "Totalmente de acuerdo": 13.4
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-06",
+                "pregunta": "En mi institución se dan capacitaciones recurrentes sobre igualdad de género y no discriminación",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 19.1,
+                    "En desacuerdo": 33.7,
+                    "De acuerdo": 32.6,
+                    "Totalmente de acuerdo": 14.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-07",
+                "pregunta": "En mi institución hay un compromiso claro por parte de las autoridades por erradicar la desigualdad de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 12.4,
+                    "En desacuerdo": 24.7,
+                    "De acuerdo": 44.9,
+                    "Totalmente de acuerdo": 18.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-08",
+                "pregunta": "En mi institución/facultad se fomenta la igualdad de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 9.0,
+                    "En desacuerdo": 21.3,
+                    "De acuerdo": 52.8,
+                    "Totalmente de acuerdo": 16.9
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-09",
+                "pregunta": "En mi institución hay mecanismos de ascenso de cargos con perspectiva de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 25.8,
+                    "En desacuerdo": 38.2,
+                    "De acuerdo": 27.0,
+                    "Totalmente de acuerdo": 9.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-10",
+                "pregunta": "En mi institución todas las personas que laboran reciben un trato digno y respetuoso",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 7.9,
+                    "En desacuerdo": 18.0,
+                    "De acuerdo": 55.1,
+                    "Totalmente de acuerdo": 19.1
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-11",
+                "pregunta": "En mi institución las personas que ocupan cargos de dirección están abiertas a la comunicación con el personal",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 11.2,
+                    "En desacuerdo": 22.5,
+                    "De acuerdo": 49.4,
+                    "Totalmente de acuerdo": 16.9
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-12",
+                "pregunta": "En mi institución/facultad no hay violencia de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 14.6,
+                    "En desacuerdo": 29.2,
+                    "De acuerdo": 40.4,
+                    "Totalmente de acuerdo": 15.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-13",
+                "pregunta": "En mi institución/facultad no hay acoso sexual",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 12.4,
+                    "En desacuerdo": 25.8,
+                    "De acuerdo": 44.9,
+                    "Totalmente de acuerdo": 16.9
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-14",
+                "pregunta": "En mi institución/facultad sé claramente a dónde acudir en situaciones de discriminación y/o violencia de género",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 15.7,
+                    "En desacuerdo": 27.0,
+                    "De acuerdo": 42.7,
+                    "Totalmente de acuerdo": 14.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-15",
+                "pregunta": "En mi institución/facultad se escucha mi voz y opinión",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 10.1,
+                    "En desacuerdo": 25.8,
+                    "De acuerdo": 48.3,
+                    "Totalmente de acuerdo": 15.7
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-16",
+                "pregunta": "En mi institución/facultad se valora mi trabajo",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 9.0,
+                    "En desacuerdo": 19.1,
+                    "De acuerdo": 53.9,
+                    "Totalmente de acuerdo": 18.0
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-17",
+                "pregunta": "Sé cómo actuar cuando un(a) estudiante tiene algún problema",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 3.4,
+                    "En desacuerdo": 12.4,
+                    "De acuerdo": 60.7,
+                    "Totalmente de acuerdo": 23.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-18",
+                "pregunta": "En mi institución/facultad se hacen evaluaciones periódicas de mi trabajo y recibo la retroalimentación correspondiente",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 14.6,
+                    "En desacuerdo": 29.2,
+                    "De acuerdo": 41.6,
+                    "Totalmente de acuerdo": 14.6
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-19",
+                "pregunta": "En mi institución/facultad se hacen evaluaciones periódicas de mis superiores y se toman en cuenta los resultados",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 20.2,
+                    "En desacuerdo": 34.8,
+                    "De acuerdo": 33.7,
+                    "Totalmente de acuerdo": 11.2
+                }
+            },
+            {
+                "pregunta_id": "encuesta-personal-20",
+                "pregunta": "En mi institución/facultad se hacen reuniones periódicas entre el personal para atender problemáticas",
+                "tipo": "likert",
+                "escala": [
+                    "Totalmente en desacuerdo",
+                    "En desacuerdo",
+                    "De acuerdo",
+                    "Totalmente de acuerdo"
+                ],
+                "resultados": {
+                    "Totalmente en desacuerdo": 18.0,
+                    "En desacuerdo": 31.5,
+                    "De acuerdo": 37.1,
+                    "Totalmente de acuerdo": 13.5
+                }
+            }
+        ]
+    }
+}

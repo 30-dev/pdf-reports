@@ -1,0 +1,94 @@
+{
+    "ejercicio_participativo_cuestionario": [
+        {
+            "pregunta": "¿En qué fecha se llevó a cabo el ejercicio participativo?",
+            "id": "fecha_ejercicio",
+            "tipo": "date",
+            "valor": "2024-03-15"
+        },
+        {
+            "pregunta": "¿En qué lugar se llevó a cabo?",
+            "id": "lugar_ejercicio",
+            "tipo": "text",
+            "valor": "Aula Magna de la Facultad de Ciencias Sociales, Universidad Autónoma de Saltillo"
+        },
+        {
+            "pregunta": "Por favor, describa la manera en que se realizó la convocatoria",
+            "id": "convocatoria_metodo",
+            "tipo": "text",
+            "valor": "Se realizó convocatoria abierta mediante correo electrónico institucional, carteles informativos en áreas comunes, publicación en redes sociales de la universidad y invitación directa a través de coordinaciones académicas y administrativas"
+        },
+        {
+            "pregunta": "Por favor, describa la manera en qué se diseñó la muestra de participantes",
+            "id": "diseno_muestra",
+            "tipo": "text",
+            "valor": "Muestra por conveniencia con representación proporcional de los diferentes sectores de la comunidad universitaria: estudiantes (60%), docentes (25%), personal administrativo (10%) y directivos (5%), asegurando equilibrio de género en cada categoría"
+        },
+        {
+            "pregunta": "Por favor, describa brevemente la metodología que se aplicó para llevar a cabo el autodiagnóstico participativo.",
+            "id": "autodiagnostico_describe",
+            "tipo": "text",
+            "valor": "Se aplicó metodología de talleres participativos con técnicas de facilitación grupal, incluyendo lluvia de ideas, mapeo de problemas, matriz FODA, grupos focales por sector y plenarias para validación colectiva de resultados"
+        },
+        {
+            "pregunta": "¿Cuál fue la o las temáticas que se abordaron en el taller de autodiagnóstico participativo?",
+            "id": "autodiagnostico_tematica",
+            "tipo": "text",
+            "valor": "Equidad de género en el ámbito universitario, prevención del acoso y hostigamiento sexual, conciliación vida académica-personal, participación en cargos de liderazgo y toma de decisiones"
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de participantes?",
+            "id": "autodiagnostico_numero",
+            "tipo": "number",
+            "valor": 127
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de mujeres estudiantes participantes?",
+            "id": "autodiagnostico_mujeres_estudiantes",
+            "tipo": "number",
+            "valor": 45
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de hombres estudiantes participantes?",
+            "id": "autodiagnostico_hombres_estudiantes",
+            "tipo": "number",
+            "valor": 31
+        },
+        {
+            "pregunta": "¿Cuáles fueron los resultados obtenidos del autodiagnóstico participativo?",
+            "id": "autodiagnostico_resultados",
+            "tipo": "text",
+            "valor": "Se identificaron brechas de género en participación estudiantil en carreras STEM, necesidad de protocolos más efectivos contra violencia de género, demanda de espacios de cuidado infantil y propuestas para promover liderazgo femenino en organizaciones estudiantiles"
+        },
+        {
+            "pregunta": "¿Cuál será el mecanismo de monitoreo a las acciones futuras que se desprendieron del autodiagnóstico participativo?",
+            "id": "autodiagnostico_monitoreo",
+            "tipo": "text",
+            "valor": "Comité de seguimiento con representación tripartita, reuniones bimestrales de evaluación, indicadores cuantitativos y cualitativos, encuestas de percepción semestrales y informe anual de avances"
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de mujeres docentes participantes?",
+            "id": "autodiagnostico_mujeres_docentes",
+            "tipo": "number",
+            "valor": 18
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de hombres docentes participantes?",
+            "id": "autodiagnostico_hombres_docentes",
+            "tipo": "number",
+            "valor": 14
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de mujeres administrativas participantes?",
+            "id": "autodiagnostico_mujeres_administrativas",
+            "tipo": "number",
+            "valor": 8
+        },
+        {
+            "pregunta": "¿Cuál fue el número total de mujeres de cargos directivos participantes?",
+            "id": "autodiagnostico_mujeres_directivos",
+            "tipo": "number",
+            "valor": 4
+        }
+    ]
+}

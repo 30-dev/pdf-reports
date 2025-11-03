@@ -1,0 +1,6 @@
+# INTRODUCCIÓN
+
+Dado el contexto actual del país, resulta obligado y urgente implementar políticas efectivas, coordinadas e integrales que verdaderamente transformen la realidad de las desigualdades de género y, por consiguiente de violencia, que se manifiestan en el ámbito educativo. La ejecución de proyectos como el "Distintivo que Genera Igualdad y Convivencia Pacífica en las Instituciones de Educación Superior" (DIGEI) se resalta como un modelo de este compromiso. El DIGEI tiene como finalidad principal reconocer a las instituciones que fomentan la igualdad de género mediante el cumplimiento del mandato legal de integrar la perspectiva de género en las diversas áreas de operación.
+
+El DIGEI no se limita a ser una simple lista de verificación de las políticas de igualdad de la institución; actúa como una “hoja de ruta” para fomentar un entorno inclusivo. Este distintivo busca asegurar que todas las personas dentro de la institución, sin importar su género, tengan acceso igualitario a oportunidades de desarrollo personal y profesional y asegurar un entorno donde todas las personas pueden alcanzar su máximo potencial. A través de esta iniciativa, las instituciones educativas se pueden convertir en agentes de cambio y asumen un papel activo en la promoción de políticas públicas más justas e igualitarias para toda la población.
+
