@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuración
-PROJECT_ID="tu-proyecto-id"  # Cambia esto por tu ID de proyecto de Google Cloud
+PROJECT_ID="igualdad-ies"  # Proyecto de Google Cloud
 SERVICE_NAME="pdf-reports"
 REGION="us-central1"  # Puedes cambiar la región si lo deseas
 

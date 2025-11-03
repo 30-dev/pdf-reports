@@ -116,10 +116,8 @@ def parse_markdown_to_flowables(filepath, styles):
 
             if line.startswith('# '):
                 flowables.append(Paragraph(line[2:], styles['h1']))
-                flowables.append(Spacer(1, styles['h1'].spaceAfter))
             elif line.startswith('## '):
                 flowables.append(Paragraph(line[3:], styles['h2']))
-                flowables.append(Spacer(1, styles['h2'].spaceAfter))
             elif line.startswith('* '):
                 flowables.append(Paragraph(line[2:], styles['li']))
             else:
@@ -222,13 +220,13 @@ def create_subdimensiones_table(data, styles):
 
     table_data = []
     headers = [
-        Paragraph("<b>ID</b>", styles['table_header']),
-        Paragraph("<b>Subdimensión</b>", styles['table_header']),
-        Paragraph("<b>Indicadores (Total)</b>", styles['table_header']),
-        Paragraph("<b>Indicadores (Atendidos)</b>", styles['table_header']),
-        Paragraph("<b>% vs 100</b>", styles['table_header']),
-        Paragraph("<b>% vs 80</b>", styles['table_header']),
-        Paragraph("<b>Semáforo</b>", styles['table_header'])
+        Paragraph("<b>ID</b>", styles['table_header_small']),
+        Paragraph("<b>Subdimensión</b>", styles['table_header_small']),
+        Paragraph("<b>Indicadores<br/>(Total)</b>", styles['table_header_small']),
+        Paragraph("<b>Indicadores<br/>(Atendidos)</b>", styles['table_header_small']),
+        Paragraph("<b>% vs<br/>100</b>", styles['table_header_small']),
+        Paragraph("<b>% vs<br/>80</b>", styles['table_header_small']),
+        Paragraph("<b>Semáforo</b>", styles['table_header_small'])
     ]
     table_data.append(headers)
 
@@ -239,6 +237,7 @@ def create_subdimensiones_table(data, styles):
         ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
         ('GRID', (0, 0), (-1, -1), 0.5, MEDIUM_GRAY),
+        ('ALIGN', (6, 0), (6, -1), 'CENTER'),  # Asegurar que columna Semáforo esté centrada
         ('LEFTPADDING', (0, 0), (-1, -1), 8),
         ('RIGHTPADDING', (0, 0), (-1, -1), 8),
         ('TOPPADDING', (0, 0), (-1, -1), 6),
@@ -492,7 +491,7 @@ def create_dimension_detail_flowables(dimension_data, styles, doc_width):
     dimension_id = dimension_id_match.group(1) if dimension_id_match else "N/A"
     
     card_title_text = f"PORCENTAJE DE INDICADORES ATENDIDOS EN LA DIMENSIÓN"
-    flowables.append(Paragraph(card_title_text, styles['dimension_title_centered'])) # Título centrado
+    flowables.append(Paragraph(card_title_text, styles['chart_title'])) # Título alineado a la izquierda
     flowables.append(Spacer(1, 0.2*cm))
 
     # Percentage attended as a SemaforoDIGEI_Lite card
@@ -1151,12 +1150,12 @@ def create_pdf_in_memory(data: ReporteData):
     font_name_bold = 'DejaVuSans-Bold' if USE_CUSTOM_FONTS else 'Helvetica-Bold'
     
     md_styles = {
-        'h1': ParagraphStyle(name='MarkdownH1', parent=base_styles['h1'], fontSize=12, spaceBefore=12, spaceAfter=8, fontName=font_name_bold),
-        'h2': ParagraphStyle(name='MarkdownH2', parent=base_styles['h2'], fontSize=11, spaceBefore=10, spaceAfter=6, alignment=TA_LEFT, fontName=font_name_bold),
+        'h1': ParagraphStyle(name='MarkdownH1', parent=base_styles['h1'], fontSize=12, spaceBefore=12, spaceAfter=4, fontName=font_name_bold),
+        'h2': ParagraphStyle(name='MarkdownH2', parent=base_styles['h2'], fontSize=11, spaceBefore=10, spaceAfter=3, alignment=TA_LEFT, fontName=font_name_bold),
         'p': ParagraphStyle(name='MarkdownP', parent=base_styles['BodyText'], alignment=TA_JUSTIFY, spaceAfter=6, fontSize=10, fontName=font_name),
         'li': ParagraphStyle(name='MarkdownLI', parent=base_styles['BodyText'], leftIndent=20, bulletIndent=10, spaceAfter=4, bulletText='•', fontSize=10, fontName=font_name),
     }
-    md_styles['h3'] = ParagraphStyle(name='MarkdownH3', parent=base_styles['h3'], fontSize=10, spaceAfter=4, alignment=TA_LEFT, fontName=font_name_bold)
+    md_styles['h3'] = ParagraphStyle(name='MarkdownH3', parent=base_styles['h3'], fontSize=10, spaceAfter=2, alignment=TA_LEFT, fontName=font_name_bold)
     md_styles['card_title'] = ParagraphStyle(name='CardTitle', parent=base_styles['Normal'], fontSize=11, spaceAfter=4, alignment=TA_LEFT, fontName=font_name)
     md_styles['chart_title'] = ParagraphStyle(name='ChartTitle', parent=base_styles['Normal'], fontSize=11, spaceAfter=4, alignment=TA_LEFT, fontName=font_name_bold)
     md_styles['h2_centered'] = ParagraphStyle(name='MarkdownH2Centered', parent=md_styles['h2'], alignment=TA_LEFT, fontName=font_name_bold)
@@ -1164,6 +1163,7 @@ def create_pdf_in_memory(data: ReporteData):
     # Estilos específicos para tablas más pequeñas
     md_styles['table_text'] = ParagraphStyle(name='TableText', parent=base_styles['Normal'], fontSize=9, fontName=font_name)
     md_styles['table_header'] = ParagraphStyle(name='TableHeader', parent=base_styles['Normal'], fontSize=9, fontName=font_name_bold)
+    md_styles['table_header_small'] = ParagraphStyle(name='TableHeaderSmall', parent=base_styles['Normal'], fontSize=8, fontName=font_name_bold)
     TITLE_STYLE = base_styles['h1']; TITLE_STYLE.alignment=TA_LEFT; TITLE_STYLE.fontName=font_name_bold
 
     doc = BaseDocTemplate(
